@@ -8,11 +8,12 @@ Deckie - Stateful deck of cards
 
 =head1 SYNOPSIS
 
-=for code
+=begin code
 use Deckie;
 my Deckie $dk .= new;
 say $deckie.draw; # returns a card in a Slip
 say $deckie.draw: 3 # Returns 3 cards in a Slip
+=end code
 
 =head1 DESCRIPTION
 
@@ -20,7 +21,7 @@ A simple deck of cards, with a method that draws cards, two by default.
 
 =head1 METHODS
 
-=head2 new( :$cards )
+=head2 method new( :$cards )
 
 With no arguments, it will generate a 40 card deck with the 4 french suites; every "card" is a simple string. You can create your own deck, as long as it's an Array.
                                                                              
@@ -58,3 +59,15 @@ method draw ( UInt $how-many = 1 --> Slip ) {
         return @draw.Slip;
     }
 }
+
+=begin pod
+
+=head1 AUTHOR
+JJ Merelo <jjmerelo@gmail.com>
+
+=head1 COPYRIGHT AND LICENSE
+Copyright 2019 JJ Merelo
+This library is free software; you can redistribute it and/or modify
+it under the Artistic License 2.0. 
+
+=end pod
