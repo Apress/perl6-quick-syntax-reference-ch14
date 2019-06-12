@@ -11,7 +11,7 @@ Deckie - Stateful deck of cards
 =for code
 use Deckie;
 my Deckie $dk .= new;
-say $deckie.draw; # returns two cards in a Slip
+say $deckie.draw; # returns a card in a Slip
 say $deckie.draw: 3 # Returns 3 cards in a Slip
 
 =head1 DESCRIPTION
