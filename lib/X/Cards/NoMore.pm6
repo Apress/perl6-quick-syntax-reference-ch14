@@ -25,7 +25,6 @@ method message() {
         "No more cards left, sorry";
 }
 
-
 =begin pod
 
 =head1 AUTHOR
