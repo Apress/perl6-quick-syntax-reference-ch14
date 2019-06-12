@@ -22,7 +22,7 @@ Thrown when there are no more cards in the deck.
 
 #| Returns the exception message
 method message() {
-        "No more cards left, sorry";
+    "No more cards left, sorry";
 }
 
 =begin pod
@@ -31,7 +31,7 @@ method message() {
 JJ Merelo <jjmerelo@gmail.com>
 
 =head1 COPYRIGHT AND LICENSE
-Copyright 2018,2019 JJ Merelo
+Copyright 2019 JJ Merelo
 This library is free software; you can redistribute it and/or modify
 it under the Artistic License 2.0. 
 
