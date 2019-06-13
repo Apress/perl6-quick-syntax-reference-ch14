@@ -1,0 +1,18 @@
+{
+  "authors" : [ "JJ Merelo" ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "description" : "A card deck",
+  "license" : "Artistic-2.0",
+  "name" : "Deckie",
+  "perl" : "6.*",
+  "provides" : {
+      "Deckie" : "lib/Deckie.pm6",
+      "X::Cards::NoMore" : "lib/X/Cards/NoMore"
+  },
+  "resources" : [ ],
+  "source-url" : "https://github.com/JJ/perl6-quick-reference-chapter14.git",
+  "tags" : [ "apress", "games" ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}
