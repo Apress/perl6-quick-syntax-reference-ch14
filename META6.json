@@ -13,6 +13,6 @@
   "resources" : [ "examples/deckie.p6" ],
   "source-url" : "https://github.com/JJ/perl6-quick-reference-chapter14.git",
   "tags" : [ "apress", "games" ],
-  "test-depends" : [ ],
+  "test-depends" : [ "Test::META" ],
   "version" : "0.0.4"
 }
